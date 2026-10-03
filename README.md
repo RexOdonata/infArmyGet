@@ -31,6 +31,9 @@ you can skip entering the faction menu by chaining commands, ex: 'faction starma
 
 ## Building
 
-Very simple build with CMake, crossplatform.
+Very simple build with CMake:
 
-I encourage installing CPR via your system package manager if available as it takes a long time to build, and if downloaded to your cmake folder it will introduce a bunch of it's own build targets.
+1. cmake . (in folder where repo is downloaded)
+2. make infArmyGet
+
+I encourage installing CPR via a package manager if available as it takes a long time to build, and if downloaded to your cmake folder it will introduce a bunch of it's own build targets.
